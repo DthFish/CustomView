@@ -118,7 +118,7 @@ class CommonGridDecoration constructor(
         }
     }
 
-    override fun onDraw(c: Canvas, parent: RecyclerView, state: RecyclerView.State) {
+    /*override fun onDraw(c: Canvas, parent: RecyclerView, state: RecyclerView.State) {
         super.onDraw(c, parent, state)
         val childCount = parent.childCount
         for (i in 0 until childCount) {
@@ -129,13 +129,12 @@ class CommonGridDecoration constructor(
             val viewHolder = parent.getChildViewHolder(view)
 
             if (viewHolder is DecorationWidthSpend) {
-//                val leftRightSpend = viewHolder.getLeftRightSpend()
                 //这里不需要画分割线
                 continue
 
             } else {
 
-                /*if (size != spanCount) {
+                *//*if (size != spanCount) {
                     val spanIndexLeft = lookup.getSpanIndex(position, spanCount)
                     val spanIndexRight = spanCount - spanIndexLeft - size
 
@@ -163,10 +162,10 @@ class CommonGridDecoration constructor(
                         drawBoth(c, view, left, right)
 
                     }
-                }*/
+                }*//*
             }
         }
-    }
+    }*/
 
     private fun drawBoth(c: Canvas, view: View, left: Int, right: Int) {
         if (left != 0) {
