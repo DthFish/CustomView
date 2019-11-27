@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".decoration.DecorationActivity"/>
+        <activity android:name=".bubbleview.BubbleViewActivity"/>
     </application>
 
 </manifest>

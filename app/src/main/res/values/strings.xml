@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CustomView</string>
+    <string name="str_send">点击这里展示效果</string>
+    <string name="str_plus">加一</string>
 </resources>

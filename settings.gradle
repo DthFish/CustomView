@@ -1,1 +1,1 @@
-include ':app', ':commondecoration'
+include ':app', ':commondecoration', ':bubbleview'
