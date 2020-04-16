@@ -31,5 +31,6 @@ dependencies {
 
     implementation project(path: ':commondecoration')
     implementation project(path: ':bubbleview')
+    implementation project(path: ':slidingmarquee')
 
 }

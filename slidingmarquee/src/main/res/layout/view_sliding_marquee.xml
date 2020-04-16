@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dthfish.slidingmarquee.UnspecifiedWidthMarqueeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/uwl"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="#ffff00"
+    android:visibility="gone">
+
+</com.dthfish.slidingmarquee.UnspecifiedWidthMarqueeLayout>
